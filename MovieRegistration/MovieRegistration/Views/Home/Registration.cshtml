@@ -10,37 +10,36 @@
 <form action="MovieDisplay" method="post">
 
     <p>ID</p>
-    <input type="number" name="ID" value="@Model.ID"/>
+    <input type="number" name="ID" value="@Model.ID" />
 
     <p>Title</p>
-    <input type="text" min="1" maxlength="50 "name="Title" value="@Model.Title" />
-   
+    <input type="text" min="1" maxlength="50 " name="Title" value="@Model.Title" />
+
 
     <p>Genre</p>
-    <input type="radio" name="Genre" value="Animated"/>
+    <input type="radio" name="Genre" value="Animated" />
     <label for="Animated">Animated</label>
-    <input type="radio" name="Genre" value="Drama"/>
+    <input type="radio" name="Genre" value="Drama" />
     <label for="Drama">Drama</label>
-    <input type="radio" name="Genre" value="Comedy"/>
+    <input type="radio" name="Genre" value="Comedy" />
     <label for="Comedy">Comedy</label>
-    <input type="radio" name="Genre" value="Horror"/>
+    <input type="radio" name="Genre" value="Horror" />
     <label for="Horror">Horror</label>
-    <input type="radio" name="Genre" value="Action"/> 
+    <input type="radio" name="Genre" value="Action" />
     <label for="Action">Action</label>
 
     <p>Year</p>
-    <input type="number" min="1880" max="2021"name="Year" value="@Model.Year"/>
-    
+    <input type="number" min="1880" max="2021" name="Year" value="@Model.Year" />
+
 
     <p>Actors</p>
-    <input type="text" name="Actors" value="@Model.Actors"/>
+    <input type="text" name="Actors" value="@Model.Actors" />
 
     <p>Directors</p>
-    <input type="text" name="Directors" value="@Model.Directors"/>
+    <input type="text" name="Directors" value="@Model.Directors" />
 
     <input type="submit" />
 
 
 </form>
-
 
